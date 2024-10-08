@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    width: 660px; 
+    /* border: 2px solid #000;  */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.container img {
+    width: 100%; 
+    height: auto; 
+}
+
+.cont{
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   color: black; 
+   font-family: 'Young Serif';
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+}
+
+.bloc_rose{
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+
+    
+}
+
+.rose{
+    padding: 20px;
+}
+
+h3{
+   color: hsl(323, 45%, 36%);
+}
+
+.rose ul li{
+    margin: 15px;
+    margin-left: 20px;
+}
+
+.rose ul li span{
+  font-family: 'Outfit';
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingred_div{
+    margin-top: 20px;
+
+}
+
+.ingred_div ul{
+    padding: 10px 15px;
+}
+
+.ingred_div ul li{
+   padding: 7px;
+}
+
+hr{
+    margin: 20px 0px 20px;
+}
+
+.intru_div{
+    margin-top: 20px;
+}
+
+.intru_div ol{
+    padding: 10px 15px;
+}
+
+.intru_div ol li{
+    padding: 7px;
+}
+
+.nutr_para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spa{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+} 
+
+.parag{
+    margin-left: 20px;
+}
+
+}
+
